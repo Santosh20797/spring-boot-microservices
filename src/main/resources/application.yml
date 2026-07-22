@@ -62,7 +62,7 @@ spring:
     name: ORDER-SERVICE
 
   datasource:
-    url: jdbc:postgresql://8.231.107.120:5432/order_db
+    url: jdbc:postgresql:///order_db
     username: postgres
     password: 4UxS_tl$\cx~s;/5
     driver-class-name: org.postgresql.Driver
@@ -71,18 +71,13 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
 
 eureka:
   client:
     enabled: false
-
-
-
-
-
-
-
-
 
 
 
