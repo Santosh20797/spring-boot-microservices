@@ -8,7 +8,7 @@ spring:
   datasource:
     url: jdbc:postgresql://8.231.107.120:5432/order_db
     username: postgres
-    password: YOUR_PASSWORD
+    password: 4UxS_tl$\cx~s;/5
     driver-class-name: org.postgresql.Driver
 
   jpa:
