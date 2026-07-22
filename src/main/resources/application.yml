@@ -6,7 +6,10 @@ spring:
     name: ORDER-SERVICE
 
   datasource:
-    url: jdbc:postgresql:///order_db?cloudSqlInstance=global-baton-502904-d7:asia-south1:order-db-instance&amp;socketFactory=com.google.cloud.sql.postgres.SocketFactory
+    url: jdbc:postgresql:///order_db?cloudSqlInstance=global-baton-502904-d7:asia-south1:order-db-instance&socketFactory=com.google.cloud.sql.postgres.SocketFactory
+    username: postgres
+    password: 4UxS_tl$\cx~s;/5
+    driver-class-name: org.postgresql.Driver
 
   jpa:
     hibernate:
